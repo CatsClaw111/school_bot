@@ -1,5 +1,6 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
-from lexicon.lexicon_ru import LEXICON_RU
+
+but_ret_menu = KeyboardButton(text='В главное меню')
 
 but_les_sche = KeyboardButton(text='Расписание уроков')
 but_bre_sche = KeyboardButton(text='Расписание звонков')

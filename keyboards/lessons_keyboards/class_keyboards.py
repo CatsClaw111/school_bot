@@ -2,7 +2,6 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from lexicon.lexicon_ru import LEXICON_RU
 
 but_ret_par = KeyboardButton(text='К параллелям')
-but_ret_menu = KeyboardButton(text='В главное меню')
 but_ret_class_1 = KeyboardButton(text='К параллели 1-ых')
 but_ret_class_2 = KeyboardButton(text='К параллели 2-ых')
 but_ret_class_3 = KeyboardButton(text='К параллели 3-ых')

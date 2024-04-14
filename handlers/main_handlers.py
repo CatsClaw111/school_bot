@@ -38,3 +38,8 @@ async def contacts_command(m: Message):
 @router.message(F.text == 'Группы школы')
 async def groups_command(m: Message):
     await m.answer(text=LEXICON_RU['группы_школы'])
+
+@router.message(F.text == 'В главное меню')
+async def return_menu_command(m: Message):
+    await m.answer(text=LEXICON_RU['start'],
+                   reply_markup=start_key)
