@@ -4,6 +4,7 @@ from aiogram.filters import Command, CommandStart
 from lexicon.lexicon_ru import LEXICON_RU
 from keyboards.start_keyboard import start_key
 from keyboards.break_schedule_keyboards import break_key
+from keyboards.lessons_keyboards.parallel_keyboards import par_key
 
 router = Router()
 
@@ -16,7 +17,8 @@ async def start_command(m: Message):
 
 @router.message(F.text == 'Расписание уроков')
 async def lessons_schedule_command(m: Message):
-    await m.answer(text=LEXICON_RU['расписание_уроков'])
+    await m.answer(text=LEXICON_RU['расписание_уроков'],
+                   reply_markup=par_key)
 
 
 @router.message(F.text == 'Расписание звонков')
