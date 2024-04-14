@@ -5,9 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a67c4d1-dde4-49a0-beca-b70cfe11bc4a" name="Changes" comment="Base_3(prepare to LEXICON)">
-      <change afterPath="$PROJECT_DIR$/ds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/lessons_schedule_handlers/days_handlers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/lessons_schedule_handlers/parallel_schedule_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/lessons_schedule_handlers/parallel_schedule_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/class_keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/class_keyboards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_10a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_10a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_10b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_10b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_11a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_11a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_11b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_11b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_11v.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_11v.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_1a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_1a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_1b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_1b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_1v.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_1v.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_2a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_2a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_2b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_2b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_2v.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_2v.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_3a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_3a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_3b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_3e.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_3e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_4a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_4a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_4b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_4b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_4e.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_4e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_5a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_5a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_5b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_5b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_5m.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_5m.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6g.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6g.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6m.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6m.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6v.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_6v.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_7a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_7a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_7b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_7b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_7m.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_7m.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_7v.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_7v.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_8a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_8a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_8b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_8b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_8m.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_8m.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_8v.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_8v.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_9a.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_9a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_9b.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_9b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_9v.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/days_keyboards/day_9v.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lexicon/lexicon_ru.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexicon/lexicon_ru.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +95,7 @@
     "Python.main.executor": "Run",
     "Python.main_handlers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/vasil/PycharmProjects/Individual_bot/handlers/lessons_schedule_handlers",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -191,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713099000945</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Base_3(prepare to LEXICON)">
+      <option name="closed" value="true" />
+      <created>1713102395805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713102395805</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

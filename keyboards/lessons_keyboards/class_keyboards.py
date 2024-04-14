@@ -1,5 +1,5 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
-from lexicon.lexicon_ru import LEXICON_RU
+from keyboards.start_keyboard import but_ret_menu
 
 but_ret_par = KeyboardButton(text='К параллелям')
 but_ret_class_1 = KeyboardButton(text='К параллели 1-ых')

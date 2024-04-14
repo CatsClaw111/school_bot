@@ -10,7 +10,7 @@ but_4a_fri = KeyboardButton(text='Понедельник_4А')
 
 days_4a_key = ReplyKeyboardMarkup(
     keyboard=[[but_4a_mon, but_4a_tue, but_4a_wed],
-              [but_4a_thu, but_4a_fri]
+              [but_4a_thu, but_4a_fri],
               [but_ret_class_4, but_ret_par, but_ret_menu]],
     resize_keyboard=True
 )
