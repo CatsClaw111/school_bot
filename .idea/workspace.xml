@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a67c4d1-dde4-49a0-beca-b70cfe11bc4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Individual_bot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_data/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/break_schedule_handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/lessons_schedule_handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/main_handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/teacher_hadlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/break_schedule_keyboards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/parallel_keyboards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/start_keyboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_schedule.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lexicon/lexicon_ru.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="8a67c4d1-dde4-49a0-beca-b70cfe11bc4a" name="Changes" comment="Base_1">
+      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/parallel_keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/parallel_keyboards.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -56,6 +38,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/vasil/Desktop/domashnee_zadanie"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -155,6 +142,15 @@
       <option name="presentableId" value="Default" />
       <updated>1712930152812</updated>
     </task>
+    <task id="LOCAL-00001" summary="Base_1">
+      <option name="closed" value="true" />
+      <created>1713045174426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713045174426</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,10 +158,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Base_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base_1" />
   </component>
 </project>

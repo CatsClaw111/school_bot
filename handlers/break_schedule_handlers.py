@@ -2,7 +2,6 @@ from aiogram import Router, F
 from aiogram.types import Message
 from aiogram.filters import Command, CommandStart
 from lexicon.lexicon_ru import LEXICON_RU
-from keyboards.start_keyboard import start_key
 
 router = Router()
 
