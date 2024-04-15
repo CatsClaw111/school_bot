@@ -1,18 +1,18 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from keyboards.start_keyboard import but_ret_menu
 
-but_ret_par = KeyboardButton(text='К параллелям')
-but_ret_class_1 = KeyboardButton(text='К параллели 1-ых')
-but_ret_class_2 = KeyboardButton(text='К параллели 2-ых')
-but_ret_class_3 = KeyboardButton(text='К параллели 3-ых')
-but_ret_class_4 = KeyboardButton(text='К параллели 4-ых')
-but_ret_class_5 = KeyboardButton(text='К параллели 5-ых')
-but_ret_class_6 = KeyboardButton(text='К параллели 6-ых')
-but_ret_class_7 = KeyboardButton(text='К параллели 7-ых')
-but_ret_class_8 = KeyboardButton(text='К параллели 8-ых')
-but_ret_class_9 = KeyboardButton(text='К параллели 9-ых')
-but_ret_class_10 = KeyboardButton(text='К параллели 10-ых')
-but_ret_class_11 = KeyboardButton(text='К параллели 11-ых')
+but_ret_par = KeyboardButton(text='🗒К параллелям')
+but_ret_class_1 = KeyboardButton(text='👶К 1-ым')
+but_ret_class_2 = KeyboardButton(text='👶К 2-ым')
+but_ret_class_3 = KeyboardButton(text='👶К 3-ым')
+but_ret_class_4 = KeyboardButton(text='👶К 4-ым')
+but_ret_class_5 = KeyboardButton(text='👦🏻К 5-ым👧🏻')
+but_ret_class_6 = KeyboardButton(text='👦🏻К 6-ым👧🏻')
+but_ret_class_7 = KeyboardButton(text='👦🏻К 7-ым👧🏻')
+but_ret_class_8 = KeyboardButton(text='👨🏻К 8-ым👩🏻')
+but_ret_class_9 = KeyboardButton(text='👨🏻К 9-ым👩🏻')
+but_ret_class_10 = KeyboardButton(text='👴🏻К 10-ым👵🏻')
+but_ret_class_11 = KeyboardButton(text='👴🏻К 11-ым👵🏻')
 
 #############################################################
 

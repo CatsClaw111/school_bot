@@ -5,7 +5,7 @@ from lexicon.lexicon_ru import LEXICON_RU
 from keyboards.start_keyboard import start_key
 from keyboards.break_schedule_keyboards import break_key
 from keyboards.lessons_keyboards.parallel_keyboards import par_key
-
+from keyboards.teacher_keyboards import tea_key
 router = Router()
 
 
@@ -29,7 +29,8 @@ async def break_schedule_command(m: Message):
 
 @router.message(F.text == '👨‍🏫Учителя👩‍🏫')
 async def teachers_command(m: Message):
-    await m.answer(text=LEXICON_RU['учителя'])
+    await m.answer(text=LEXICON_RU['учителя'],
+                   reply_markup=tea_key)
 
 
 @router.message(F.text == '🗄Контакты')

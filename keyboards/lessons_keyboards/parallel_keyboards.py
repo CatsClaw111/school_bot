@@ -1,17 +1,17 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from keyboards.start_keyboard import but_ret_menu
 
-but_1_par = KeyboardButton(text='1')
-but_2_par = KeyboardButton(text='2')
-but_3_par = KeyboardButton(text='3')
-but_4_par = KeyboardButton(text='4')
-but_5_par = KeyboardButton(text='5')
-but_6_par = KeyboardButton(text='6')
-but_7_par = KeyboardButton(text='7')
-but_8_par = KeyboardButton(text='8')
-but_9_par = KeyboardButton(text='9')
-but_10_par = KeyboardButton(text='10')
-but_11_par = KeyboardButton(text='11')
+but_1_par = KeyboardButton(text='1👶')
+but_2_par = KeyboardButton(text='2👶')
+but_3_par = KeyboardButton(text='3👶')
+but_4_par = KeyboardButton(text='4👶')
+but_5_par = KeyboardButton(text='👦🏻5👧🏻')
+but_6_par = KeyboardButton(text='👦🏻6👧🏻')
+but_7_par = KeyboardButton(text='👦🏻7👧🏻')
+but_8_par = KeyboardButton(text='👨🏻8👩🏻')
+but_9_par = KeyboardButton(text='👨🏻9👩🏻')
+but_10_par = KeyboardButton(text='👴🏻10👵🏻')
+but_11_par = KeyboardButton(text='👴🏻11👵🏻')
 
 par_key = ReplyKeyboardMarkup(
     keyboard=[[but_1_par, but_2_par, but_3_par, but_4_par],
