@@ -3,8 +3,8 @@ import logging
 
 from aiogram import Bot, Dispatcher
 from config_data.config import Config, load_config
-from handlers import main_handlers
-from handlers.lessons_schedule_handlers import parallel_schedule_handlers, class_schedule_handlers
+from handlers import main_handlers, break_schedule_handlers
+from handlers.lessons_schedule_handlers import parallel_schedule_handlers, class_schedule_handlers, days_handlers
 
 logger = logging.getLogger(__name__)
 
@@ -23,7 +23,7 @@ async def main():
               parse_mode='HTML')
     dp = Dispatcher()
 
-    dp.include_routers(main_handlers.router, parallel_schedule_handlers.router, class_schedule_handlers.router)
+    dp.include_routers(main_handlers.router, parallel_schedule_handlers.router, class_schedule_handlers.router, break_schedule_handlers.router, days_handlers.router)
 
     await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)

@@ -15,33 +15,33 @@ async def start_command(m: Message):
                    reply_markup=start_key)
 
 
-@router.message(F.text == 'Расписание уроков')
+@router.message(F.text == '🗓Расписание уроков')
 async def lessons_schedule_command(m: Message):
     await m.answer(text=LEXICON_RU['расписание_уроков'],
                    reply_markup=par_key)
 
 
-@router.message(F.text == 'Расписание звонков')
+@router.message(F.text == '🛎️Расписание звонков')
 async def break_schedule_command(m: Message):
     await m.answer(text=LEXICON_RU['расписание_звонков'],
                    reply_markup=break_key)
 
 
-@router.message(F.text == 'Учителя')
+@router.message(F.text == '👨‍🏫Учителя👩‍🏫')
 async def teachers_command(m: Message):
     await m.answer(text=LEXICON_RU['учителя'])
 
 
-@router.message(F.text == 'Контакты')
+@router.message(F.text == '🗄Контакты')
 async def contacts_command(m: Message):
     await m.answer(text=LEXICON_RU['контакты'])
 
 
-@router.message(F.text == 'Группы школы')
+@router.message(F.text == '🌐Группы школы')
 async def groups_command(m: Message):
     await m.answer(text=LEXICON_RU['группы_школы'])
 
-@router.message(F.text == 'В главное меню')
+@router.message(F.text == '📋В главное меню')
 async def return_menu_command(m: Message):
     await m.answer(text=LEXICON_RU['start'],
                    reply_markup=start_key)

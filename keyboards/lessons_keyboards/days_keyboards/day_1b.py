@@ -3,10 +3,10 @@ from keyboards.lessons_keyboards.class_keyboards import but_ret_class_1, but_ret
 from keyboards.start_keyboard import but_ret_menu
 
 but_1b_mon = KeyboardButton(text='Понедельник_1Б')
-but_1b_tue = KeyboardButton(text='Понедельник_1Б')
-but_1b_wed = KeyboardButton(text='Понедельник_1Б')
-but_1b_thu = KeyboardButton(text='Понедельник_1Б')
-but_1b_fri = KeyboardButton(text='Понедельник_1Б')
+but_1b_tue = KeyboardButton(text='Вторник_1Б')
+but_1b_wed = KeyboardButton(text='Среда_1Б')
+but_1b_thu = KeyboardButton(text='Четверг_1Б')
+but_1b_fri = KeyboardButton(text='Пятница_1Б')
 
 days_1b_key = ReplyKeyboardMarkup(
     keyboard=[[but_1b_mon, but_1b_tue, but_1b_wed],
