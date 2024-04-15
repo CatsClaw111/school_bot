@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a67c4d1-dde4-49a0-beca-b70cfe11bc4a" name="Changes" comment="Base_5(Working build)">
-      <change afterPath="$PROJECT_DIR$/keyboards/teacher_keyboards.py" afterDir="false" />
+    <list default="true" id="8a67c4d1-dde4-49a0-beca-b70cfe11bc4a" name="Changes" comment="Base_5.1(Working build)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/break_schedule_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/break_schedule_handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/lessons_schedule_handlers/parallel_schedule_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/lessons_schedule_handlers/parallel_schedule_handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/main_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/main_handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/teacher_hadlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/teacher_hadlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/break_schedule_keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/break_schedule_keyboards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/class_keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/class_keyboards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/lessons_keyboards/parallel_keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/lessons_keyboards/parallel_keyboards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons_schedule.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/lessons_schedule.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713173419390</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Base_5.1(Working build)">
+      <option name="closed" value="true" />
+      <created>1713177135702</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177135702</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +275,7 @@
     <MESSAGE value="Base_3(prepare to LEXICON)" />
     <MESSAGE value="Base_4(pre-schedule done)" />
     <MESSAGE value="Base_5(Working build)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base_5(Working build)" />
+    <MESSAGE value="Base_5.1(Working build)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base_5.1(Working build)" />
   </component>
 </project>
