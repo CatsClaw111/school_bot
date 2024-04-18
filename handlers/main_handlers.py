@@ -6,6 +6,7 @@ from keyboards.start_keyboard import start_key
 from keyboards.break_schedule_keyboards import break_key
 from keyboards.lessons_keyboards.parallel_keyboards import par_key
 from keyboards.teacher_keyboards import tea_key
+
 router = Router()
 
 
@@ -41,6 +42,7 @@ async def contacts_command(m: Message):
 @router.message(F.text == '🌐Группы школы')
 async def groups_command(m: Message):
     await m.answer(text=LEXICON_RU['группы_школы'])
+
 
 @router.message(F.text == '📋В главное меню')
 async def return_menu_command(m: Message):
