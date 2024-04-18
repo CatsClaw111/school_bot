@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a67c4d1-dde4-49a0-beca-b70cfe11bc4a" name="Changes" comment="Base_5.3(Working build)">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8a67c4d1-dde4-49a0-beca-b70cfe11bc4a" name="Changes" comment="Base_5.4(Working build)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds.py" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/main_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/main_handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/teacher_hadlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/teacher_hadlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/teacher_keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/teacher_keyboards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexicon/lexicon_ru.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexicon/lexicon_ru.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,22 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_handlers.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vasil/PycharmProjects/Individual_bot/handlers/lessons_schedule_handlers&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.main_handlers.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/vasil/PycharmProjects/Individual_bot/handlers/lessons_schedule_handlers",
+    "settings.editor.selected.configurable": "advanced.settings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vasil\PycharmProjects\Individual_bot\handlers\lessons_schedule_handlers" />
@@ -164,6 +158,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\vasil\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8a67c4d1-dde4-49a0-beca-b70cfe11bc4a" name="Changes" comment="" />
@@ -244,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713307845306</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Base_5.4(Working build)">
+      <option name="closed" value="true" />
+      <created>1713428434006</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713428434006</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +303,7 @@
     <MESSAGE value="Base_5(Working build)" />
     <MESSAGE value="Base_5.1(Working build)" />
     <MESSAGE value="Base_5.3(Working build)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base_5.3(Working build)" />
+    <MESSAGE value="Base_5.4(Working build)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base_5.4(Working build)" />
   </component>
 </project>

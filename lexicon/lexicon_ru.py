@@ -307,11 +307,11 @@ LEXICON_RU: dict[str, str] = {
     '11б': 'Выберите день:',
     '11в': 'Выберите день:',
     'понедельник_1а': 'Понедельник:\n\n'
-                      f'1️⃣ {sheet['C41'].value} | {sheet['D41'].value}\n\n'
-                      f'2️⃣ {sheet['C42'].value} | {sheet['D42'].value}\n\n'
-                      f'3️⃣ {sheet['C43'].value} | {sheet['D43'].value}\n\n'
-                      f'4️⃣ {sheet['C44'].value} | {sheet['D44'].value}\n\n'
-                      f'5️⃣ {sheet['C45'].value} | {sheet['D45'].value}\n\n',
+                      f"1️⃣ {sheet['C41'].value} | {sheet['D41'].value}\n\n"
+                      f"2️⃣ {sheet['C42'].value} | {sheet['D42'].value}\n\n"
+                      f"3️⃣ {sheet['C43'].value} | {sheet['D43'].value}\n\n"
+                      f"4️⃣ {sheet['C44'].value} | {sheet['D44'].value}\n\n"
+                      f"5️⃣ {sheet['C45'].value} | {sheet['D45'].value}\n\n",
     'вторник_1а': 'Вторник:\n\n'
                   f'1️⃣ {sheet['C46'].value} | {sheet['D46'].value}\n\n'
                   f'2️⃣ {sheet['C47'].value} | {sheet['D47'].value}\n\n'
