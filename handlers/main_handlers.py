@@ -1,6 +1,5 @@
 from aiogram import Router, F
 from aiogram.types import Message
-from aiogram.filters import Command, CommandStart
 from lexicon.lexicon_ru import LEXICON_RU
 from keyboards.start_keyboard import start_key
 from keyboards.break_schedule_keyboards import break_key
@@ -46,5 +45,5 @@ async def groups_command(m: Message):
 
 @router.message(F.text == '📋В главное меню')
 async def return_menu_command(m: Message):
-    await m.answer(text=LEXICON_RU['start'],
+    await m.answer(text=LEXICON_RU['меню'],
                    reply_markup=start_key)

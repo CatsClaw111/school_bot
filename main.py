@@ -23,7 +23,8 @@ async def main():
               parse_mode='HTML')
     dp = Dispatcher()
 
-    dp.include_routers(main_handlers.router, parallel_schedule_handlers.router, class_schedule_handlers.router, break_schedule_handlers.router, days_handlers.router, teacher_hadlers.router)
+    dp.include_routers(main_handlers.router, parallel_schedule_handlers.router, class_schedule_handlers.router,
+                       break_schedule_handlers.router, days_handlers.router, teacher_hadlers.router)
 
     await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)
